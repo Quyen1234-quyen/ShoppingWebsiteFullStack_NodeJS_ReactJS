@@ -1,0 +1,231 @@
+.product_item_detail {
+    background: #F5F5F5;
+    padding: 10px 5%;
+
+
+
+    .product_item_contain {
+        background: white;
+        padding: 0px 15px 20px 10px;
+        .name{
+            margin-top:18px;
+        }
+        .product_detail_rating {
+            display: flex;
+            justify-content: flex-start;
+
+            ul {
+                li {
+                    display: inline;
+                }
+            }
+
+            span {
+                font-size: 12px;
+                margin-top: 5px;
+                margin-left: 5px;
+            }
+        }
+
+        .product_detail_brand {
+            span {
+                font-size: 12px;
+            }
+
+            .item {
+                font-size: 12px;
+
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+
+        }
+
+        .product_detail_price {
+            margin-bottom: 40px;
+        }
+
+        .product_detail_soluong {
+            margin-top: 30px;
+            display: flex;
+            justify-content: flex-start;
+
+            span {
+                margin-right: 10px;
+            }
+
+            div {
+                i {
+                    cursor: pointer;
+                    background: #F5F5F5;
+                    font-size: 25px;
+                    color: rgb(212, 208, 208);
+                    padding: 4px;
+                }
+
+                span {
+                    margin-right: 0px;
+                    text-align: center;
+                    padding: 10px;
+                }
+            }
+        }
+
+        .product_detail_action {
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-between;
+
+            .icon {
+                padding: 10px 45px;
+                border-radius: 3px;
+                cursor: pointer;
+            }
+
+            .buy_product {
+                background: #FFB916;
+            }
+
+            .add_cart {
+                background: #F57224;
+            }
+        }
+
+        // right
+        .col-md-4 {
+            background: #FAFAFA;
+            padding-left: 0;
+            padding-right: 0;
+
+            .product_detail_right {
+                span {
+                    font-size: 12px;
+                }
+
+                p {
+                    margin-top: 20px;
+                    font-size: 12px;
+                    padding: 0 10px;
+                    margin-left: 10px;
+                }
+
+                .map {
+                    border-bottom: 1px solid #F5F5F5;
+                }
+
+                div {
+
+                    padding: 5px 10px;
+                    display: flex;
+
+                    div {
+                        width: 10%;
+                        font-size: 20px;
+                        text-align: left;
+                    }
+
+                    p {
+                        width: 60%;
+                        font-size: 14px;
+                        padding: 0 10px;
+                        margin-top: 0;
+                    }
+
+                    .item {
+                        text-align: right;
+                        width: 30%;
+                        font-size: 14px;
+
+                        &:hover {
+                            text-decoration: none;
+                        }
+                    }
+
+                    .money {
+                        width: 80%;
+                    }
+                }
+
+                .warranty {
+                    padding-top: 20px;
+                    border-top: 2px solid #F5F5F5;
+                    display: flex;
+                    justify-content: space-between;
+                }
+
+
+
+                .your_store {
+                    border-top: 10px solid white;
+                    display: block;
+                    padding: 0;
+
+                    .store_infomation {
+
+                        width: 100%;
+                        padding: 0;
+                        display: flex;
+                        justify-content: space-between;
+
+                        p {
+                            width: 60%;
+                            padding: 10px;
+                            padding-top: 5px;
+
+                        }
+
+                        div {
+                            width: 40%;
+                            color: blue;
+
+                            i,
+                            span {
+                                cursor: pointer;
+                            }
+                        }
+                    }
+
+                    .evaluate {
+                        display: flex;
+                        width: 100%;
+                        border: 1px solid #F5F5F5;
+                        border-right: none;
+                        border-left: none;
+                        padding: 0;
+
+                        div {
+                            margin: 0;
+                            display: block;
+                            width: 1000px;
+                            border: 1px solid #F5F5F5;
+                            padding-left: 17px;
+
+                            p {
+
+                                font-size: 20px;
+                            }
+
+                            .p {
+                                margin-top: 30px;
+                            }
+                        }
+                    }
+                }
+                //den gian hang
+                .link_store{
+                    display: block;
+                    text-align: center;
+                    padding:10px 0;
+                    .item{
+                        text-decoration: none;
+                        font-size: 20px;
+                    }
+                }
+
+            }
+
+        }
+
+    }
+}

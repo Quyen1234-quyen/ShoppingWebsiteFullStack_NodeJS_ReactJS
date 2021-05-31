@@ -1,0 +1,87 @@
+.seller_controller_product {
+
+    width: 90%;
+
+    input {
+        font-size: 12px;
+        margin-right: 40px;
+    }
+    select {
+        font-size: 12px;
+        cursor: pointer;
+    }
+
+    input:focus,
+    input:active,
+    select:focus,
+    select:active,
+    button:focus,
+    button:active {
+        outline-color: none;
+        border-color: none;
+        box-shadow: none;
+    }
+
+    span {
+        margin-top: 10px;
+        border: 1px solid;
+        padding: 2px 4px;
+        font-size: 12px;
+        cursor: pointer;
+    }
+
+    .seller_controller_tasks {
+
+        width: 100%;
+        height: 60px;
+        background: white;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+
+        div {
+            padding-top: 7px;
+            margin: 0;
+        }
+    }
+
+    //
+    .list_product {
+        margin-top: 20px;
+
+        .product {
+            border: 1px solid #D3D3D1;
+
+            .product_header {
+                width: 100%;
+                display: flex;
+                margin-bottom: 2px;
+                padding: 20px 0px;
+                font-size: 12px;
+
+                div {
+                    width: 1000px;
+                    text-align: center;
+                }
+            }
+
+            .product_header_filter {
+                display: flex;
+
+                .filterName {
+                    width: 70%;
+                    padding: 10px 0px 10px 66px;
+                    input{
+                        width:56%;
+                    }
+                }
+
+                .filterStatus {
+                    width: 30%;
+                    padding: 10px 0px 10px 100px;
+                }
+            }
+
+        }
+    }
+}

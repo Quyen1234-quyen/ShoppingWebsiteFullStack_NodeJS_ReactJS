@@ -1,0 +1,107 @@
+.login {
+    background: #EFF0F5;
+    padding-top: 40px;
+    padding-bottom: 30px;
+
+    p {
+        font-size: 12px;
+    }
+
+    .login_header {
+        width: 70%;
+        margin: auto;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+
+        p {
+            margin-top: 10px;
+            font-size: 12px;
+        }
+    }
+
+    .main {
+    
+        width: 70%;
+        margin: auto;
+        background: white;
+        padding: 10px;
+        
+        label {
+            font-size: 12px;
+        }
+
+        input {
+            border-radius: .1em !important;
+            font-size: 12px;
+            padding-top: 10px;
+            padding: 18px 35px 18px 10px !important;
+        }
+
+        input:focus,
+        input:active,
+        select:focus,
+        select:active,
+        button:focus,
+        button:active {
+            outline-color: none;
+            border-color: none;
+            box-shadow: none;
+        }
+
+        span {
+            font-size: 12px;
+            color: red;
+        }
+        .mk{
+            position: relative;
+        }
+        .eye{
+            position: absolute;
+            z-index: 99;
+            top: 40px;
+            right: 8px;
+        }
+        .login_right {
+            margin-top: 21px;
+
+            button {
+                background: #F57224;
+                color: white;
+                margin: 0;
+                height: 48px;
+                padding: 0 36px;
+                font-size: 14px;
+                line-height: 46px;
+                border-width: 1px;
+            }
+
+            
+        }
+        .login_social{
+            margin-top:20px;
+            .icon {
+                width: 100%;
+                color: #fff;
+                font-size: 18px;
+                height: 40px;
+                line-height: 15px;
+                border-radius: 3px;
+                padding: 10px 30px;
+                cursor: pointer;
+            }
+    
+            .facebook {
+                background: #3b5998;
+                margin-bottom: 29px;
+    
+            }
+    
+            .google {
+                background: #d34836;
+            }
+        }
+        
+
+    }
+}

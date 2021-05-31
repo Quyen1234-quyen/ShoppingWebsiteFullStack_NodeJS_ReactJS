@@ -1,0 +1,126 @@
+.model_login {
+    position: fixed;
+    z-index: 9999;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    .model_login_content {
+        position: relative;
+        text-align: left;
+        background: #EFF0F5;
+        margin: 5% auto;
+        padding: 20px;
+        width: 70%;
+        box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.3), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+        animation-name: modelopen ;
+        animation-duration: 100s;
+        .close{
+            position: absolute;
+            z-index: 1;
+            top:2px;
+            right:2px;
+            padding:10px 12px;
+            border-radius: 50%;
+            cursor: pointer;
+            
+        }
+        .login_header {
+            width: 100%;
+            margin: auto;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+
+            p {
+                margin-top: 10px;
+                font-size: 12px;
+            }
+        }
+
+        .main {
+            width: 100%;
+            margin: auto;
+            background: white;
+            padding: 10px;
+
+            label {
+                font-size: 12px;
+            }
+
+            input {
+                border-radius: .1em !important;
+                font-size: 12px;
+                padding-top: 10px;
+                padding: 18px 35px 18px 10px !important;
+            }
+
+            input:focus,
+            input:active,
+            select:focus,
+            select:active,
+            button:focus,
+            button:active {
+                outline-color: none;
+                border-color: none;
+                box-shadow: none;
+            }
+
+            span {
+                font-size: 12px;
+                color: red;
+            }
+
+            .login_right {
+                margin-top: 21px;
+
+                button {
+                    background: #F57224;
+                    color: white;
+                    margin: 0;
+                    height: 48px;
+                    padding: 0 36px;
+                    font-size: 14px;
+                    line-height: 46px;
+                    border-width: 1px;
+                }
+
+
+            }
+
+            .login_social {
+                margin-top: 20px;
+
+                .icon {
+                    width: 100%;
+                    color: #fff;
+                    font-size: 18px;
+                    height: 40px;
+                    line-height: 15px;
+                    border-radius: 3px;
+                    padding: 10px 30px;
+                    cursor: pointer;
+                }
+
+                .facebook {
+                    background: #3b5998;
+                    margin-bottom: 29px;
+
+                }
+
+                .google {
+                    background: #d34836;
+                }
+            }
+
+
+        }
+    }
+    @keyframes modelopen{
+        form {opacity: 0;}
+        to {opacity: 1;}
+    }
+}
+

@@ -1,0 +1,39 @@
+
+
+.shop_header_infor{
+    position: absolute;
+    z-index: 99;
+    bottom:10%;
+    left:1%;
+   
+    width: 400px;
+    .shop_header_infor_content{
+        padding:10px;
+        background: white;
+        display: flex;
+        justify-content: space-around;
+        div{
+           
+            img{
+                border:1px solid;
+                height: 60px;
+                width: 60px;
+                line-height: 100px;
+            }
+        }
+        p,span{
+            font-size: 12px;
+        }
+        .follow{
+            color:#F57224;
+            i,span{
+                cursor: pointer;
+            }
+        }
+        .talk{
+            i,span{
+                cursor: pointer;
+            }
+        }
+    }
+}

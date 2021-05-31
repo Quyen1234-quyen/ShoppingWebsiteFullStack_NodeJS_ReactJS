@@ -1,0 +1,22 @@
+
+
+
+.header__search{
+    margin-top:25px;
+    .search{
+        width: 100%;
+        input{
+            width:90%;
+            padding:10px;
+            border:none;
+            outline: white;
+            background:#EFF0F5;
+        }
+        button{
+            border:none;
+            padding:10px 15px;
+            background:#F57224;
+            color:white;
+        }
+    }
+}

@@ -1,0 +1,69 @@
+.login_seller {
+    background: #F2F3F7;
+
+    .header_login {
+        width: 100%;
+        height: 80px;
+        background: #0F146D;
+    }
+
+    .main {
+        height: 100%;
+        margin-top: 60px;
+        padding-bottom: 125px;
+
+        .form {
+            background: white;
+            width: 400px;
+            margin: auto;
+            padding: 20px;
+            font-size: 12px;
+
+            input,
+            select {
+                border-radius: .1em !important;
+                font-size: 12px;
+                height: 35px;
+            }
+
+            .dangki {
+                margin: 40px 0;
+            }
+
+            p {
+
+                color: red;
+                margin-top: 8px;
+                margin-bottom: -8px;
+                height: 20px;
+
+            }
+
+            button {
+                background: #2F4A65;
+                color: white;
+            }
+
+            input:focus,
+            input:active,
+            select:focus,
+            select:active,
+            button:focus,
+            button:active {
+                outline-color: none;
+                border-color: none;
+                box-shadow: none;
+            }
+            .mk{
+                position: relative;
+            }
+            .eye{
+                position: absolute;
+                z-index: 99;
+                top: 13px;
+                right: 8px;
+                cursor: pointer;
+            }
+        }
+    }
+}

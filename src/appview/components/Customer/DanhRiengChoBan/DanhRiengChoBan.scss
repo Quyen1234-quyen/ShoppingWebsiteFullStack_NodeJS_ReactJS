@@ -1,0 +1,26 @@
+.danh_rieng_cho_ban {
+    background: #F5F5F5;
+    padding: 10px 5% ;
+    
+
+    .btn_near_footer {
+        margin-top:40px;
+        border-bottom: 1px solid ;
+        padding-bottom: 20px;
+        p{
+            margin: 0 auto;
+            display: block;
+            width: 387px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            font-size: 14px;
+            color: #1a9cb8;
+            border: 1px solid #1a9cb8;
+            text-transform: uppercase;
+            cursor: pointer;
+        
+        }
+    }
+
+}

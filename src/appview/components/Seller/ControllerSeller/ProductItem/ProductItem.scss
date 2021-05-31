@@ -1,0 +1,40 @@
+
+
+
+
+.product_content{
+    border-top:1px solid #D3D3D1;
+    width: 100%;
+    display: flex;
+    padding-top:10px;
+    font-size: 12px; 
+    background-color: white;
+    div{
+        text-align: center;
+        padding: 5px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100px;
+        .warning{
+            padding:2px 4px;
+            background-color: #F0AD4E;
+        }
+        .default{
+            background-color: #777777;
+        }
+        .icon{
+            padding:2px 5px;
+            border:1px solid;
+            cursor: pointer;
+            color: white;
+        }
+        .btnsua{
+            background: #F57224;
+        }
+        .btnxoa{
+            background: #DA1F26;
+        }
+    }
+}

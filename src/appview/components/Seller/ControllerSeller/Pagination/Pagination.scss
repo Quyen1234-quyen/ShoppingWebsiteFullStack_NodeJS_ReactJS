@@ -1,0 +1,38 @@
+.pagination {
+    margin-top:40px;
+    width: 90%;
+    margin-left: 10%;
+    .pagination_content {
+        display: flex;
+        justify-content: space-between;
+        div {
+            ul {
+                li {
+                    display: inline;
+                    font-size: 12px;
+                    border:1px solid #D3D3D1;
+                    padding:4px 8px;
+                    cursor: pointer;
+                }
+            }
+            .pagination_left{
+                li{
+                    margin-right:10px;
+                }
+            }
+            .pagination_right{
+                li{
+                    margin-left:10px;
+                }
+                .slsp{
+                    background: white;
+                    .pagination_count{
+                        cursor: pointer;
+                        border:none;
+                        outline: none;
+                    }
+                }
+            }
+        }
+    }
+}

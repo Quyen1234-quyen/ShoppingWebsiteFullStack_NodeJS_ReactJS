@@ -1,0 +1,109 @@
+.formAction {
+    position: fixed;
+    z-index: 99999;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    .formAction_content {
+        position: relative;
+        width: 50%;
+        margin: auto;
+        margin-top: 30px;
+        padding: 20px;
+        background: white;
+        font-size: 12px;
+
+        h6 {
+            margin-bottom: 1.5rem !important;
+            font-weight: 500;
+            line-height: 1.2;
+            margin-left: 15px;
+        }
+
+        span {
+            color: red;
+        }
+
+        p {
+            color: red;
+            margin-top: 8px;
+            margin-bottom: -14px;
+            height: 20px;
+        }
+
+        .close {
+            position: absolute;
+            z-index: 1;
+            top: 2px;
+            right: 2px;
+            padding: 10px 12px;
+            border-radius: 50%;
+            cursor: pointer;
+
+        }
+
+        .customFile {
+            input[type="file"] {
+                display: none;
+            }
+
+            label {
+                cursor: pointer;
+                color: black;
+                height: 228px;
+                width: 288px;
+                border: 1px solid #CED4DA;
+                border-radius: 4px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                overflow: hidden;
+            }
+            i{
+                color:red;
+                font-size: 100px !important;
+            }
+        }
+
+        input {
+            font-size: 12px;
+        }
+
+        select {
+            font-size: 12px;
+        }
+
+        input:focus,
+        input:active,
+        select:focus,
+        select:active,
+        button:focus,
+        button:active {
+            outline-color: none;
+            border-color: none;
+            box-shadow: none;
+        }
+
+        .button_action {
+            margin-top: 30px;
+
+            button {
+                margin: 0px 18px;
+                padding: 10px 35px;
+                border: none;
+            }
+
+            .them {
+                background: #F57224;
+            }
+
+            .huybo {
+                background: #DA1F26;
+            }
+        }
+    }
+
+}

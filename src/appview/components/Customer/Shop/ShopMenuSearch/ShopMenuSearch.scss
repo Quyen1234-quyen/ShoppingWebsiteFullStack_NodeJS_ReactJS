@@ -1,0 +1,42 @@
+
+
+
+.shop_menu_search{
+    padding:10px 5%;
+    display: flex;
+    .container-fluid{
+        display: flex;
+        justify-content: space-between;
+        ul{
+            
+            list-style: none;
+            display: flex;
+            li{
+                margin-right: 30px;
+                .item{
+                    text-decoration: none;
+                    color:#AEA7BA;
+                }
+            }
+        }
+        div{
+            border:1px solid #AEA7BA;;
+            line-height: 35px;
+            padding:0 10px;
+            input{
+                padding-right: 10px;
+                font-size: 12px;
+                width:200px;
+                border:none;
+            }
+            i{
+              
+                padding:0;
+            }
+            input:focus,input:active{
+                outline: none;
+            }
+        }
+    }
+    
+}

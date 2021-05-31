@@ -1,0 +1,30 @@
+-- thuc hien chuong trinh app dung mongodb webpack reactjs nodej express
+-- dau tien tao thu muc nhu bai
+-- cai cac goi thu vien can thiet de lam cap nhat sau:
+    express,nodemon-D
+-- tiep dung nodemon de refresh server nhanh hon khong can phai ctrl c de start lai server oke
+-- tiep den luu y den process.env.PORT || 3000  
+    voi viec co  nhieu process nen viec hoat dong cua project tren nhung env se khac nhau
+    development no se nhan dc port 3000
+    prodution no se nhan dc port cua host
+
+
+-- về xử lý hình ảnh thì với việc chạy bằng node thì đường dẫn sẽ tính từ file index
+<img src="./img/service1.png" width="10%"/>
+còn chạy bằng webpack thì sẽ bắt đầu từ localhost tính vào trong thư mục
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+phan front -end

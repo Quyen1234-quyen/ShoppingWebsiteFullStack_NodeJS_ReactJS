@@ -1,0 +1,48 @@
+
+
+.deal{
+    background: #F5F5F5;
+    padding:10px 5%;
+    .deal_header{
+        background: white   ;
+        padding:10px;
+        border-bottom: 1px solid;
+        .deal_header_left{
+           display: flex;
+           justify-content: space-between;
+           .deal_db{
+                padding-top:4px;
+           }
+           .deal_time{
+               height: 30px;
+               span{
+                   color:white;
+                   line-height: 30px;
+                   margin:0 7px;
+                   padding:7px 10px;
+                   background: #D3232A;
+               }
+           }
+        }
+        .deal_header_right{
+            text-align: right;
+            button{
+                border:none;
+                background: transparent;
+                border: 2px solid #F6723F;
+                padding: 4px;
+                color:#F6723F;
+                font-size: 14px;
+                border-radius: 3px;
+            }
+            
+            
+        }
+    }
+    
+    
+    .deal_container{
+        background: white;
+        padding-bottom: 5px;
+    }
+}

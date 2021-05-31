@@ -1,0 +1,44 @@
+
+
+
+
+
+.checkout_left{
+    background-color: #fff;
+    margin-top:20px;
+    padding:15px;
+    label {
+        font-size: 12px;
+    }
+
+    input {
+        border-radius: .1em !important;
+        font-size: 12px;
+        padding-top: 10px;
+        padding: 18px 35px 18px 10px !important;
+    }
+
+    input:focus,
+    input:active,
+    select:focus,
+    select:active,
+    button:focus,
+    button:active {
+        outline-color: none;
+        border-color: none;
+        box-shadow: none;
+    }
+
+    span {
+        font-size: 12px;
+        color: red;
+    }
+    .cart_item_content{
+        input{
+            padding:0 !important;
+            outline: none !important;
+            border: 1px solid #DADADA;
+            text-align: center;
+        }
+    }
+}

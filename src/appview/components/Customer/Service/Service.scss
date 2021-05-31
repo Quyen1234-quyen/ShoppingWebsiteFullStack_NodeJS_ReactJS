@@ -1,0 +1,17 @@
+
+
+.service{
+    background: #F5F5F5;
+    padding: 15px 5%;
+    .service__item{
+        padding:5px 3px ;
+        background:white;
+        border-radius: 50px;
+        img{
+            margin-left:5px;
+        }
+        span{
+            font-weight: 600;
+        }
+    }
+}

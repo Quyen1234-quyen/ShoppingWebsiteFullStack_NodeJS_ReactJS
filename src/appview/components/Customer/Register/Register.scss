@@ -1,0 +1,159 @@
+.register {
+    background: #EFF0F5;
+    padding-top: 40px;
+    padding-bottom: 30px;
+
+    .register_header {
+        width: 70%;
+        margin: auto;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+
+        p {
+            margin-top:10px;
+            font-size: 12px;
+        }
+
+    }
+    .main {
+        width: 70%;
+        margin: auto;
+        background: white;
+        padding: 10px;
+        .register_contain {
+            .hidden{
+                display: none;
+            }
+            label {
+                font-size: 12px;
+            }
+
+            input {
+                border-radius: .1em !important;
+                font-size: 12px;
+                padding-top: 10px;
+                padding: 18px 35px 18px 10px !important;
+            }
+
+            input:focus,
+            input:active,
+            select:focus,
+            select:active,
+            button:focus,
+            button:active {
+                outline-color: none;
+                border-color: none;
+                box-shadow: none;
+            }
+
+            span {
+                font-size: 12px;
+                color: red;
+            }
+
+            select {
+                // padding-top: 18px !important;
+                // padding-bottom: 18px !important;
+                font-size: 12px;
+                border-radius: .1em !important;
+            }
+            input[type="range"]{
+                width: 100%;
+                height: 38px;
+                -webkit-appearance: none;
+                outline: none;
+                background-color:#D4F3EB;
+                padding:0 !important;
+                
+            }
+            input[type="range"]::-webkit-slider-thumb{
+                -webkit-appearance: none;
+                width: 38px;
+                height: 38px;
+                background-color:#08B68A; 
+                box-shadow: 0 0 10px #08B68A; 
+                
+                position: relative;
+                cursor: pointer;
+            }
+            .ngay_sinh {
+                display: flex;
+                justify-content: space-between;
+
+                .select {
+                    display: flex;
+
+                    .form-control {
+                        width: 90px;
+                    }
+                }
+                #thang{
+                    width:100px;
+                }
+
+            }
+
+            .mk{
+                position: relative;
+            }
+            .eye{
+                position: absolute;
+                z-index: 99;
+                top: 40px;
+                right: 8px;
+                cursor: pointer;
+            }
+
+            //right
+            .register_right {
+                p {
+                    font-size: 12px;
+                }
+
+                button {
+                    background: #F57224;
+                    color: white;
+                    margin: 0;
+                    height: 48px;
+                    padding: 0 36px;
+                    font-size: 14px;
+                    line-height: 46px;
+                    border-width: 1px;
+                }
+
+                #sdt {
+                    background: white;
+                    border: 1px solid #F57224;
+                    color: #F57224;
+                }
+
+                .register_social {
+                    margin-top:30px;
+                    display: flex;
+                    justify-content: space-between;
+
+                    .icon {
+                        color: #fff;
+                        font-size: 18px;
+                        height: 40px;
+                        line-height: 15px;
+                        border-radius: 3px;
+                        padding:10px 30px;
+                        cursor: pointer;
+                    }
+
+                    .facebook {
+                        background: #3b5998;
+                        
+                    }
+                    .google{
+                        background: #d34836;
+                    }
+                }
+
+
+            }
+        }
+    }
+}

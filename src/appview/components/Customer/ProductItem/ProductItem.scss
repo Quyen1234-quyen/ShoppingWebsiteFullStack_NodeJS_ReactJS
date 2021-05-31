@@ -1,0 +1,40 @@
+
+
+
+.product_item{
+    padding:5px;
+    background: white;
+    margin-top:15px;
+    cursor: pointer;
+    .image{
+        width: 100%;
+        height: 164px;
+        overflow: hidden;
+    }
+    p{
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
+    }
+    .product_item_des{
+        font-size: 14px;
+        .price{
+            font-size: 19px;
+            color:#F57224;
+        }
+        .rating{
+            margin-top:5px;
+            display: flex;
+            justify-content: space-between;
+            div{
+                i{
+                    color:yellow;
+                }
+            }
+        }
+    }
+
+
+    &:hover{
+        box-shadow: 0 0 3px  rgb(95, 93, 93);
+    }
+}
